@@ -3,6 +3,10 @@
     <a class="button button-primary" :href="cognitoLogin"
       >Login with Cognito Hosted UI</a
     >
+    <div>
+      My telegram: https://t.me/oxsnm,
+      My github: https://github.com/maydragon2000/
+    </div>
   </div>
 </template>
 

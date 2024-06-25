@@ -14,16 +14,18 @@ const pool = {
     ...
 }
 ```
+
 3. Setup the project with the instruction shown below (Project setup)
-4. You need to serve the project from an https route as Cognito only accepts HTTPS redirect URL with a FQDN (ie it will not accept https://localhost/ or https://127.0.0.1). 
-5. Add the https hosting URI followed by `/done` as the  `HTTPS_REDIRECT_GW_URI` in the `pool-config.js` file
+4. You need to serve the project from an https route as Cognito only accepts HTTPS redirect URL with a FQDN (ie it will not accept https://localhost/ or https://127.0.0.1).
+5. Add the https hosting URI followed by `/done` as the `HTTPS_REDIRECT_GW_URI` in the `pool-config.js` file
 
 ```
 const pool = {
-    ... 
+    ...
     HTTPS_REDIRECT_GW_URI: ''
 }
 ```
+
 6. Create a [REST API in API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-integrate-with-cognito.html) using Cognito authentication
 
 7. Customize the `callApi` method in `.src/views/Code.vue`
@@ -39,26 +41,29 @@ const pool = {
 ```
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
 ### Lints and fixes files
+
 ```
 npm run lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-

@@ -5,7 +5,10 @@
     >
     <div>
       My telegram: https://t.me/oxsnm,
+      <br />
       My github: https://github.com/maydragon2000/
+      <br />
+      Let's chat on above platform if you intend to meet me in forward.
     </div>
   </div>
 </template>

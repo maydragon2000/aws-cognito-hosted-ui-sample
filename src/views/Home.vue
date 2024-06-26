@@ -4,9 +4,9 @@
       >Login with Cognito Hosted UI</a
     >
     <div>
-      My telegram: <a href="https://t.me/oxsnm"></a>
+      <a href="https://t.me/oxsnm">My telegram:</a>
       <br />
-      My github: <a href=" https://github.com/maydragon2000/"></a>
+      <a href=" https://github.com/maydragon2000/"> My github:</a>
       <br />
       Let's chat on above platform if you intend to meet me in forward.
     </div>
